@@ -1,0 +1,98 @@
+/* color palette
+#013A40 - teal blue
+#203514 - forest green
+#401E01 - brown
+#BFB2AA - beige
+#C8C7C2 - gray
+*/
+
+.nav {
+    text-align: center;
+    padding: 1px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #BFB2AA;
+    text-align: center
+}
+
+h1 {
+    font-family: 'Gloock', serif;
+    text-align: center;
+    border-style: solid;
+    border-color: #203514;
+    border-width: 10px;
+}
+
+h2 {
+    font-family: 'Gloock', serif;
+    text-align: center;
+}
+
+img{
+    border: black;
+    border-width: 5px;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  body {
+    margin: 20px;
+    text-align: center;
+  }
+
+  figcaption{
+    font-size: small;
+    margin: 5px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img{
+    border-style: solid;
+    border-color:#C8C7C2;
+    border-width: 2px;
+  }
+  img {
+    max-width: 190%
+  }
+  
+  .image {
+    flex-basis: 60%
+  }
+  
+  .text {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .dl{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+  }
+
+  dd {
+    font-size: small;
+  }
+
+  h3{
+    background-color: #C8C7C2;
+  }
+
+  footer{
+    margin-top: auto;
+    background-color: #203514;
+    color: aliceblue;
+  }
