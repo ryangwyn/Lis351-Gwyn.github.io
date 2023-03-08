@@ -91,8 +91,25 @@ img{
     background-color: #C8C7C2;
   }
 
-  footer{
+  .list {
+    text-align: center;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  footer {
     margin-top: auto;
     background-color: #203514;
     color: aliceblue;
+    height: 50px;
   }
+
+
+  ul {
+    text-align: center;
+    list-style-position: inside;
+}
